@@ -44,18 +44,22 @@
                 <span>Elytra IA</span>
             </div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#how-it-works">How It Works</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#demo">Demo</a></li>
-                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#home" data-translate="nav.home">Home</a></li>
+                <li><a href="#features" data-translate="nav.features">Features</a></li>
+                <li><a href="#how-it-works" data-translate="nav.howItWorks">How It Works</a></li>
+                <li><a href="#pricing" data-translate="nav.pricing">Pricing</a></li>
+                <li><a href="#demo" data-translate="nav.demo">Demo</a></li>
+                <li><a href="#faq" data-translate="nav.faq">FAQ</a></li>
             </ul>
             <div class="nav-buttons">
                 <button class="theme-toggle" id="themeToggle">
                     <span class="theme-icon">🌙</span>
                 </button>
-                <button class="btn btn-primary">Start Free Trial</button>
+                <button class="language-toggle" id="languageToggle">
+                    <span class="language-icon">🌐</span>
+                    <span class="language-text">EN</span>
+                </button>
+                <button class="btn btn-primary" data-translate="nav.cta">Start Free Trial</button>
             </div>
             <div class="hamburger" id="hamburger">
                 <span></span>
@@ -71,25 +75,25 @@
         <div class="container hero-content">
             <div class="hero-text">
                 <h1 class="hero-title">
-                    <span class="gradient-text typing-text">Transform Conversations into Conversions</span>
+                    <span class="gradient-text typing-text" data-translate="hero.title">Transform Conversations into Conversions</span>
                 </h1>
-                <p class="hero-subtitle fade-in">Empower your sales team with AI-driven emotional intelligence. Boost conversion rates from <span class="highlight">10% to 35%</span> with smart message suggestions.</p>
+                <p class="hero-subtitle fade-in" data-translate="hero.subtitle">Empower your sales team with AI-driven emotional intelligence. Boost conversion rates from 10% to 35% with smart message suggestions.</p>
                 <div class="hero-buttons fade-in">
-                    <button class="btn btn-large btn-primary">Get Started Free</button>
-                    <button class="btn btn-large btn-outline">Watch Demo</button>
+                    <button class="btn btn-large btn-primary" data-translate="hero.btnGetStarted">Get Started Free</button>
+                    <button class="btn btn-large btn-outline" data-translate="hero.btnDemo">Watch Demo</button>
                 </div>
                 <div class="hero-stats fade-in">
                     <div class="stat">
                         <span class="stat-number" data-target="35">0</span><span class="stat-percent">%</span>
-                        <p>Conversion Rate</p>
+                        <p data-translate="hero.conversionRate">Conversion Rate</p>
                     </div>
                     <div class="stat">
                         <span class="stat-number" data-target="250">0</span><span class="stat-percent">%</span>
-                        <p>ROI Increase</p>
+                        <p data-translate="hero.roiIncrease">ROI Increase</p>
                     </div>
                     <div class="stat">
                         <span class="stat-number" data-target="10000">0</span><span class="stat-percent">+</span>
-                        <p>Sales Professionals</p>
+                        <p data-translate="hero.salesProfessionals">Sales Professionals</p>
                     </div>
                 </div>
             </div>
@@ -146,7 +150,7 @@
             <div class="mouse">
                 <div class="wheel"></div>
             </div>
-            <p>Scroll to explore</p>
+            <p data-translate="hero.scrollText">Scroll to explore</p>
         </div>
     </section>
 
@@ -154,39 +158,39 @@
     <section id="features" class="features">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Powerful AI Features</h2>
-                <p class="section-subtitle">Everything you need to supercharge your sales team</p>
+                <h2 class="section-title" data-translate="features.title">Powerful AI Features</h2>
+                <p class="section-subtitle" data-translate="features.subtitle">Everything you need to supercharge your sales team</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card glass-card">
                     <div class="feature-icon">🧠</div>
-                    <h3>Emotion AI Analysis</h3>
-                    <p>Advanced algorithms detect client emotions in real-time, understanding frustration, interest, and excitement.</p>
+                    <h3 data-translate="features.emotion.title">Emotion AI Analysis</h3>
+                    <p data-translate="features.emotion.desc">Advanced algorithms detect client emotions in real-time, understanding frustration, interest, and excitement.</p>
                 </div>
                 <div class="feature-card glass-card">
                     <div class="feature-icon">💬</div>
-                    <h3>Smart Suggestions</h3>
-                    <p>Get AI-powered message recommendations tailored to each conversation context and emotional state.</p>
+                    <h3 data-translate="features.suggestions.title">Smart Suggestions</h3>
+                    <p data-translate="features.suggestions.desc">Get AI-powered message recommendations tailored to each conversation context and emotional state.</p>
                 </div>
                 <div class="feature-card glass-card">
                     <div class="feature-icon">📊</div>
-                    <h3>Analytics Dashboard</h3>
-                    <p>Track performance, conversion rates, and team metrics with beautiful, actionable insights.</p>
+                    <h3 data-translate="features.analytics.title">Analytics Dashboard</h3>
+                    <p data-translate="features.analytics.desc">Track performance, conversion rates, and team metrics with beautiful, actionable insights.</p>
                 </div>
                 <div class="feature-card glass-card">
                     <div class="feature-icon">⚡</div>
-                    <h3>Real-time Processing</h3>
-                    <p>Instant analysis and suggestions as the conversation flows, never miss an opportunity.</p>
+                    <h3 data-translate="features.realtime.title">Real-time Processing</h3>
+                    <p data-translate="features.realtime.desc">Instant analysis and suggestions as the conversation flows, never miss an opportunity.</p>
                 </div>
                 <div class="feature-card glass-card">
                     <div class="feature-icon">🔒</div>
-                    <h3>Secure & Private</h3>
-                    <p>Enterprise-grade encryption ensures your conversations and data remain confidential.</p>
+                    <h3 data-translate="features.secure.title">Secure & Private</h3>
+                    <p data-translate="features.secure.desc">Enterprise-grade encryption ensures your conversations and data remain confidential.</p>
                 </div>
                 <div class="feature-card glass-card">
                     <div class="feature-icon">🌐</div>
-                    <h3>Multi-platform</h3>
-                    <p>Works seamlessly across WhatsApp, Email, CRM systems, and more.</p>
+                    <h3 data-translate="features.multiplatform.title">Multi-platform</h3>
+                    <p data-translate="features.multiplatform.desc">Works seamlessly across WhatsApp, Email, CRM systems, and more.</p>
                 </div>
             </div>
         </div>
@@ -196,36 +200,36 @@
     <section id="how-it-works" class="how-it-works">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">How Elytra IA Works</h2>
-                <p class="section-subtitle">Simple, powerful, effective</p>
+                <h2 class="section-title" data-translate="how.title">How Elytra IA Works</h2>
+                <p class="section-subtitle" data-translate="how.subtitle">Simple, powerful, effective</p>
             </div>
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-number">1</div>
                     <div class="timeline-content glass-card">
-                        <h3>Connect Your Channels</h3>
-                        <p>Integrate Elytra IA with your existing communication platforms in minutes.</p>
+                        <h3 data-translate="how.step1.title">Connect Your Channels</h3>
+                        <p data-translate="how.step1.desc">Integrate Elytra IA with your existing communication platforms in minutes.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-number">2</div>
                     <div class="timeline-content glass-card">
-                        <h3>AI Analyzes Conversations</h3>
-                        <p>Our advanced AI reads and understands the context, tone, and emotions in every message.</p>
+                        <h3 data-translate="how.step2.title">AI Analyzes Conversations</h3>
+                        <p data-translate="how.step2.desc">Our advanced AI reads and understands the context, tone, and emotions in every message.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-number">3</div>
                     <div class="timeline-content glass-card">
-                        <h3>Get Smart Suggestions</h3>
-                        <p>Receive multiple message options ranked by conversion probability.</p>
+                        <h3 data-translate="how.step3.title">Get Smart Suggestions</h3>
+                        <p data-translate="how.step3.desc">Receive multiple message options ranked by conversion probability.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-number">4</div>
                     <div class="timeline-content glass-card">
-                        <h3>Convert More Clients</h3>
-                        <p>Watch your conversion rates soar as you send perfectly crafted responses.</p>
+                        <h3 data-translate="how.step4.title">Convert More Clients</h3>
+                        <p data-translate="how.step4.desc">Watch your conversion rates soar as you send perfectly crafted responses.</p>
                     </div>
                 </div>
             </div>
@@ -236,43 +240,43 @@
     <section id="demo" class="demo-section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">See Elytra IA in Action</h2>
-                <p class="section-subtitle">Interactive demo of our AI assistant</p>
+                <h2 class="section-title" data-translate="demo.title">See Elytra IA in Action</h2>
+                <p class="section-subtitle" data-translate="demo.subtitle">Interactive demo of our AI assistant</p>
             </div>
             <div class="demo-container">
                 <div class="chat-mockup glass-card">
                     <div class="chat-header">
                         <div class="chat-avatar">👤</div>
                         <div class="chat-info">
-                            <h4>Client Conversation</h4>
-                            <p class="status">Active</p>
+                            <h4 data-translate="demo.chatTitle">Client Conversation</h4>
+                            <p class="status" data-translate="demo.status">Active</p>
                         </div>
                     </div>
                     <div class="chat-messages" id="chatMessages">
                         <div class="message client-message">
-                            <p>Hi, I'm interested in your product but the price seems high...</p>
+                            <p data-translate="demo.clientMsg">Hi, I'm interested in your product but the price seems high...</p>
                             <span class="time">10:23 AM</span>
                         </div>
                     </div>
                     <div class="emotion-display">
-                        <h4>Detected Emotions:</h4>
+                        <h4 data-translate="demo.emotionsTitle">Detected Emotions:</h4>
                         <div class="emotion-bars">
                             <div class="emotion-bar">
-                                <span>Interested</span>
+                                <span data-translate="demo.interested">Interested</span>
                                 <div class="bar-container">
                                     <div class="bar-fill" style="width: 75%; background: linear-gradient(90deg, #43e97b, #38f9d7);"></div>
                                 </div>
                                 <span class="percentage">75%</span>
                             </div>
                             <div class="emotion-bar">
-                                <span>Hesitant</span>
+                                <span data-translate="demo.hesitant">Hesitant</span>
                                 <div class="bar-container">
                                     <div class="bar-fill" style="width: 60%; background: linear-gradient(90deg, #fa709a, #fee140);"></div>
                                 </div>
                                 <span class="percentage">60%</span>
                             </div>
                             <div class="emotion-bar">
-                                <span>Engaged</span>
+                                <span data-translate="demo.engaged">Engaged</span>
                                 <div class="bar-container">
                                     <div class="bar-fill" style="width: 80%; background: linear-gradient(90deg, #667eea, #764ba2);"></div>
                                 </div>
@@ -282,29 +286,29 @@
                     </div>
                 </div>
                 <div class="suggestions-panel glass-card">
-                    <h3>AI Suggestions</h3>
+                    <h3 data-translate="demo.suggestionsTitle">AI Suggestions</h3>
                     <div class="suggestions-list">
                         <div class="suggestion-card">
                             <div class="suggestion-header">
-                                <span class="success-rate high">92% Success Rate</span>
-                                <span class="suggestion-badge">Recommended</span>
+                                <span class="success-rate high">92% <span data-translate="demo.successRate">Success Rate</span></span>
+                                <span class="suggestion-badge" data-translate="demo.recommended">Recommended</span>
                             </div>
-                            <p class="suggestion-text">"I completely understand your concern about pricing. Let me show you the ROI our clients typically see in the first 3 months - most recover their investment and see 2x returns. Would you like to see a personalized breakdown?"</p>
-                            <button class="btn btn-small btn-primary">Use This</button>
+                            <p class="suggestion-text" data-translate="demo.suggestion1">"I completely understand your concern about pricing. Let me show you the ROI our clients typically see in the first 3 months - most recover their investment and see 2x returns. Would you like to see a personalized breakdown?"</p>
+                            <button class="btn btn-small btn-primary" data-translate="demo.useThis">Use This</button>
                         </div>
                         <div class="suggestion-card">
                             <div class="suggestion-header">
-                                <span class="success-rate medium">78% Success Rate</span>
+                                <span class="success-rate medium">78% <span data-translate="demo.successRate">Success Rate</span></span>
                             </div>
-                            <p class="suggestion-text">"Great question! We offer flexible payment plans that make it easier to get started. Would you like to explore our installment options?"</p>
-                            <button class="btn btn-small btn-outline">Use This</button>
+                            <p class="suggestion-text" data-translate="demo.suggestion2">"Great question! We offer flexible payment plans that make it easier to get started. Would you like to explore our installment options?"</p>
+                            <button class="btn btn-small btn-outline" data-translate="demo.useThis">Use This</button>
                         </div>
                         <div class="suggestion-card">
                             <div class="suggestion-header">
-                                <span class="success-rate good">85% Success Rate</span>
+                                <span class="success-rate good">85% <span data-translate="demo.successRate">Success Rate</span></span>
                             </div>
-                            <p class="suggestion-text">"I appreciate your interest! What if I could show you how our product pays for itself? Let's schedule a quick 15-min demo where I'll demonstrate the value specifically for your business."</p>
-                            <button class="btn btn-small btn-outline">Use This</button>
+                            <p class="suggestion-text" data-translate="demo.suggestion3">"I appreciate your interest! What if I could show you how our product pays for itself? Let's schedule a quick 15-min demo where I'll demonstrate the value specifically for your business."</p>
+                            <button class="btn btn-small btn-outline" data-translate="demo.useThis">Use This</button>
                         </div>
                     </div>
                 </div>
@@ -316,129 +320,129 @@
     <section id="pricing" class="pricing">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Choose Your Plan</h2>
-                <p class="section-subtitle">Flexible pricing for teams of all sizes</p>
+                <h2 class="section-title" data-translate="pricing.title">Choose Your Plan</h2>
+                <p class="section-subtitle" data-translate="pricing.subtitle">Flexible pricing for teams of all sizes</p>
             </div>
             <div class="pricing-grid">
                 <!-- Start Plan -->
                 <div class="pricing-card glass-card">
                     <div class="plan-header">
-                        <h3>Start</h3>
+                        <h3 data-translate="pricing.start.name">Start</h3>
                         <div class="plan-price">
                             <span class="currency">R$</span>
                             <span class="amount">79</span>
                             <span class="period">.90/month</span>
                         </div>
-                        <p class="plan-users">1 person per key</p>
+                        <p class="plan-users" data-translate="pricing.start.users">1 person per key</p>
                     </div>
                     <ul class="plan-features">
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>1 Suggestion at a time</span>
+                            <span data-translate="pricing.start.feature1">1 Suggestion at a time</span>
                         </li>
                         <li class="feature-item disabled">
                             <span class="cross">✗</span>
-                            <span>Automatic write and send</span>
+                            <span data-translate="pricing.start.feature2">Automatic write and send</span>
                         </li>
                         <li class="feature-item disabled">
                             <span class="cross">✗</span>
-                            <span>Dashboard analytics</span>
+                            <span data-translate="pricing.start.feature3">Dashboard analytics</span>
                         </li>
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>Email support</span>
+                            <span data-translate="pricing.start.feature4">Email support</span>
                         </li>
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>Basic emotion detection</span>
+                            <span data-translate="pricing.start.feature5">Basic emotion detection</span>
                         </li>
                     </ul>
-                    <button class="btn btn-outline btn-block">Get Started</button>
+                    <button class="btn btn-outline btn-block" data-translate="pricing.start.btn">Get Started</button>
                 </div>
 
                 <!-- Team Plan (Popular) -->
                 <div class="pricing-card glass-card popular">
-                    <div class="popular-badge">Most Popular</div>
+                    <div class="popular-badge" data-translate="pricing.team.badge">Most Popular</div>
                     <div class="plan-header">
-                        <h3>Team</h3>
+                        <h3 data-translate="pricing.team.name">Team</h3>
                         <div class="plan-price">
                             <span class="currency">R$</span>
                             <span class="amount">249</span>
                             <span class="period">.90/month</span>
                         </div>
-                        <p class="plan-users">5 people per key</p>
+                        <p class="plan-users" data-translate="pricing.team.users">5 people per key</p>
                     </div>
                     <ul class="plan-features">
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>2 Suggestions at a time</span>
+                            <span data-translate="pricing.team.feature1">2 Suggestions at a time</span>
                         </li>
                         <li class="feature-item disabled">
                             <span class="cross">✗</span>
-                            <span>Automatic write and send</span>
+                            <span data-translate="pricing.team.feature2">Automatic write and send</span>
                         </li>
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>Complete dashboard analytics</span>
+                            <span data-translate="pricing.team.feature3">Complete dashboard analytics</span>
                         </li>
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>Priority support</span>
+                            <span data-translate="pricing.team.feature4">Priority support</span>
                         </li>
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>Advanced emotion AI</span>
+                            <span data-translate="pricing.team.feature5">Advanced emotion AI</span>
                         </li>
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>Team performance tracking</span>
+                            <span data-translate="pricing.team.feature6">Team performance tracking</span>
                         </li>
                     </ul>
-                    <button class="btn btn-primary btn-block">Get Started</button>
+                    <button class="btn btn-primary btn-block" data-translate="pricing.team.btn">Get Started</button>
                 </div>
 
                 <!-- Enterprise Plan -->
                 <div class="pricing-card glass-card">
                     <div class="plan-header">
-                        <h3>Enterprise</h3>
+                        <h3 data-translate="pricing.enterprise.name">Enterprise</h3>
                         <div class="plan-price">
                             <span class="currency">R$</span>
                             <span class="amount">499</span>
                             <span class="period">.90/month</span>
                         </div>
-                        <p class="plan-users">10 people per key</p>
+                        <p class="plan-users" data-translate="pricing.enterprise.users">10 people per key</p>
                     </div>
                     <ul class="plan-features">
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>3 Suggestions at a time</span>
+                            <span data-translate="pricing.enterprise.feature1">3 Suggestions at a time</span>
                         </li>
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>Automatic write and send</span>
+                            <span data-translate="pricing.enterprise.feature2">Automatic write and send</span>
                         </li>
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>Complete dashboard analytics</span>
+                            <span data-translate="pricing.enterprise.feature3">Complete dashboard analytics</span>
                         </li>
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>24/7 Premium support</span>
+                            <span data-translate="pricing.enterprise.feature4">24/7 Premium support</span>
                         </li>
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>Advanced emotion AI</span>
+                            <span data-translate="pricing.enterprise.feature5">Advanced emotion AI</span>
                         </li>
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>Custom integrations</span>
+                            <span data-translate="pricing.enterprise.feature6">Custom integrations</span>
                         </li>
                         <li class="feature-item">
                             <span class="check">✓</span>
-                            <span>Dedicated account manager</span>
+                            <span data-translate="pricing.enterprise.feature7">Dedicated account manager</span>
                         </li>
                     </ul>
-                    <button class="btn btn-outline btn-block">Get Started</button>
+                    <button class="btn btn-outline btn-block" data-translate="pricing.enterprise.btn">Get Started</button>
                 </div>
             </div>
         </div>
@@ -448,40 +452,40 @@
     <section class="testimonials">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">What Our Clients Say</h2>
-                <p class="section-subtitle">Join thousands of satisfied sales professionals</p>
+                <h2 class="section-title" data-translate="testimonials.title">What Our Clients Say</h2>
+                <p class="section-subtitle" data-translate="testimonials.subtitle">Join thousands of satisfied sales professionals</p>
             </div>
             <div class="testimonials-grid">
                 <div class="testimonial-card glass-card">
                     <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonial-text">"Elytra IA transformed our sales process. We went from 12% to 34% conversion in just 2 months. The emotion detection is incredibly accurate!"</p>
+                    <p class="testimonial-text" data-translate="testimonials.1.text">"Elytra IA transformed our sales process. We went from 12% to 34% conversion in just 2 months. The emotion detection is incredibly accurate!"</p>
                     <div class="testimonial-author">
                         <div class="author-avatar">MC</div>
                         <div>
-                            <h4>Maria Costa</h4>
-                            <p>Sales Director, TechCorp</p>
+                            <h4 data-translate="testimonials.1.name">Maria Costa</h4>
+                            <p data-translate="testimonials.1.role">Sales Director, TechCorp</p>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-card glass-card">
                     <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonial-text">"The AI suggestions are spot-on every time. It's like having a sales coach whispering the perfect response in your ear. Game changer!"</p>
+                    <p class="testimonial-text" data-translate="testimonials.2.text">"The AI suggestions are spot-on every time. It's like having a sales coach whispering the perfect response in your ear. Game changer!"</p>
                     <div class="testimonial-author">
                         <div class="author-avatar">JS</div>
                         <div>
-                            <h4>João Silva</h4>
-                            <p>Senior Sales Rep, StartupXYZ</p>
+                            <h4 data-translate="testimonials.2.name">João Silva</h4>
+                            <p data-translate="testimonials.2.role">Senior Sales Rep, StartupXYZ</p>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-card glass-card">
                     <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonial-text">"ROI was immediate. The dashboard helps me coach my team better and the automation features save hours every day."</p>
+                    <p class="testimonial-text" data-translate="testimonials.3.text">"ROI was immediate. The dashboard helps me coach my team better and the automation features save hours every day."</p>
                     <div class="testimonial-author">
                         <div class="author-avatar">AP</div>
                         <div>
-                            <h4>Ana Paula</h4>
-                            <p>VP of Sales, MegaCorp</p>
+                            <h4 data-translate="testimonials.3.name">Ana Paula</h4>
+                            <p data-translate="testimonials.3.role">VP of Sales, MegaCorp</p>
                         </div>
                     </div>
                 </div>
@@ -493,62 +497,62 @@
     <section id="faq" class="faq">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Frequently Asked Questions</h2>
-                <p class="section-subtitle">Everything you need to know</p>
+                <h2 class="section-title" data-translate="faq.title">Frequently Asked Questions</h2>
+                <p class="section-subtitle" data-translate="faq.subtitle">Everything you need to know</p>
             </div>
             <div class="faq-container">
                 <div class="faq-item glass-card">
                     <div class="faq-question">
-                        <h3>How does the emotion detection work?</h3>
+                        <h3 data-translate="faq.1.question">How does the emotion detection work?</h3>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Our AI uses advanced natural language processing and sentiment analysis to detect emotional cues in text. It analyzes word choice, punctuation, context, and communication patterns to understand feelings like interest, frustration, excitement, or hesitation.</p>
+                        <p data-translate="faq.1.answer">Our AI uses advanced natural language processing and sentiment analysis to detect emotional cues in text. It analyzes word choice, punctuation, context, and communication patterns to understand feelings like interest, frustration, excitement, or hesitation.</p>
                     </div>
                 </div>
                 <div class="faq-item glass-card">
                     <div class="faq-question">
-                        <h3>Which platforms does Elytra IA integrate with?</h3>
+                        <h3 data-translate="faq.2.question">Which platforms does Elytra IA integrate with?</h3>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Elytra IA integrates with WhatsApp, email clients, Salesforce, HubSpot, Slack, and most major CRM systems. We're constantly adding new integrations based on customer feedback.</p>
+                        <p data-translate="faq.2.answer">Elytra IA integrates with WhatsApp, email clients, Salesforce, HubSpot, Slack, and most major CRM systems. We're constantly adding new integrations based on customer feedback.</p>
                     </div>
                 </div>
                 <div class="faq-item glass-card">
                     <div class="faq-question">
-                        <h3>Is my data secure and private?</h3>
+                        <h3 data-translate="faq.3.question">Is my data secure and private?</h3>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Absolutely! We use enterprise-grade encryption (AES-256) for all data in transit and at rest. We're GDPR and LGPD compliant, and we never share your data with third parties. Your conversations remain completely confidential.</p>
+                        <p data-translate="faq.3.answer">Absolutely! We use enterprise-grade encryption (AES-256) for all data in transit and at rest. We're GDPR and LGPD compliant, and we never share your data with third parties. Your conversations remain completely confidential.</p>
                     </div>
                 </div>
                 <div class="faq-item glass-card">
                     <div class="faq-question">
-                        <h3>Can I try Elytra IA before committing?</h3>
+                        <h3 data-translate="faq.4.question">Can I try Elytra IA before committing?</h3>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Yes! We offer a 14-day free trial with no credit card required. You'll get full access to all features so you can experience the power of Elytra IA firsthand.</p>
+                        <p data-translate="faq.4.answer">Yes! We offer a 14-day free trial with no credit card required. You'll get full access to all features so you can experience the power of Elytra IA firsthand.</p>
                     </div>
                 </div>
                 <div class="faq-item glass-card">
                     <div class="faq-question">
-                        <h3>What if I need more than 10 users?</h3>
+                        <h3 data-translate="faq.5.question">What if I need more than 10 users?</h3>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>For larger teams, we offer custom Enterprise+ plans with unlimited users, dedicated infrastructure, and personalized support. Contact our sales team for a custom quote.</p>
+                        <p data-translate="faq.5.answer">For larger teams, we offer custom Enterprise+ plans with unlimited users, dedicated infrastructure, and personalized support. Contact our sales team for a custom quote.</p>
                     </div>
                 </div>
                 <div class="faq-item glass-card">
                     <div class="faq-question">
-                        <h3>How quickly can I get started?</h3>
+                        <h3 data-translate="faq.6.question">How quickly can I get started?</h3>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
-                        <p>Setup takes less than 5 minutes! Simply create an account, connect your communication channels, and you're ready to go. Our onboarding wizard guides you through every step.</p>
+                        <p data-translate="faq.6.answer">Setup takes less than 5 minutes! Simply create an account, connect your communication channels, and you're ready to go. Our onboarding wizard guides you through every step.</p>
                     </div>
                 </div>
             </div>
@@ -559,13 +563,13 @@
     <section class="cta-section">
         <div class="container">
             <div class="cta-content">
-                <h2>Ready to Transform Your Sales?</h2>
-                <p>Join thousands of sales professionals already using Elytra IA to boost their conversions</p>
+                <h2 data-translate="cta.title">Ready to Transform Your Sales?</h2>
+                <p data-translate="cta.subtitle">Join thousands of sales professionals already using Elytra IA to boost their conversions</p>
                 <div class="cta-buttons">
-                    <button class="btn btn-large btn-primary">Start Free Trial</button>
-                    <button class="btn btn-large btn-outline">Schedule Demo</button>
+                    <button class="btn btn-large btn-primary" data-translate="cta.btnTrial">Start Free Trial</button>
+                    <button class="btn btn-large btn-outline" data-translate="cta.btnDemo">Schedule Demo</button>
                 </div>
-                <p class="cta-note">No credit card required • 14-day free trial • Cancel anytime</p>
+                <p class="cta-note" data-translate="cta.note">No credit card required • 14-day free trial • Cancel anytime</p>
             </div>
         </div>
     </section>
@@ -588,7 +592,7 @@
                         </svg>
                         <span>Elytra IA</span>
                     </div>
-                    <p>Transforming conversations into conversions with AI-powered intelligence.</p>
+                    <p data-translate="footer.tagline">Transforming conversations into conversions with AI-powered intelligence.</p>
                     <div class="social-links">
                         <a href="#" class="social-icon">📘</a>
                         <a href="#" class="social-icon">🐦</a>
@@ -597,44 +601,44 @@
                     </div>
                 </div>
                 <div class="footer-section">
-                    <h4>Product</h4>
+                    <h4 data-translate="footer.product">Product</h4>
                     <ul>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#pricing">Pricing</a></li>
-                        <li><a href="#demo">Demo</a></li>
-                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#features" data-translate="footer.features">Features</a></li>
+                        <li><a href="#pricing" data-translate="footer.pricing">Pricing</a></li>
+                        <li><a href="#demo" data-translate="footer.demo">Demo</a></li>
+                        <li><a href="#" data-translate="footer.integrations">Integrations</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Company</h4>
+                    <h4 data-translate="footer.company">Company</h4>
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#" data-translate="footer.about">About Us</a></li>
+                        <li><a href="#" data-translate="footer.careers">Careers</a></li>
+                        <li><a href="#" data-translate="footer.blog">Blog</a></li>
+                        <li><a href="#" data-translate="footer.contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Resources</h4>
+                    <h4 data-translate="footer.resources">Resources</h4>
                     <ul>
-                        <li><a href="#">Documentation</a></li>
-                        <li><a href="#">API</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#" data-translate="footer.documentation">Documentation</a></li>
+                        <li><a href="#" data-translate="footer.api">API</a></li>
+                        <li><a href="#" data-translate="footer.support">Support</a></li>
+                        <li><a href="#faq" data-translate="footer.faq">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Legal</h4>
+                    <h4 data-translate="footer.legal">Legal</h4>
                     <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Cookie Policy</a></li>
-                        <li><a href="#">LGPD</a></li>
+                        <li><a href="#" data-translate="footer.privacy">Privacy Policy</a></li>
+                        <li><a href="#" data-translate="footer.terms">Terms of Service</a></li>
+                        <li><a href="#" data-translate="footer.cookie">Cookie Policy</a></li>
+                        <li><a href="#" data-translate="footer.lgpd">LGPD</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Elytra IA. All rights reserved.</p>
+                <p data-translate="footer.copyright">&copy; 2025 Elytra IA. All rights reserved.</p>
             </div>
         </div>
     </footer>
